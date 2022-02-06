@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="js/java.js"></script>
+    <title>Desafio 2</title>
+</head>
+<body>
+    
+    <header>
+        
+        
+            
+        <div id="centralizar">
+            <h1 id="estilo">ME ACHA!</h1>
+        </div>
+        <h4 id="estilo2">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h4>
+         
+        <div id="icone"><span id="icone32" class="material-icons">
+            travel_explore
+            </span>
+        </div>
+    
+    </header>
+
+    <main>
+         <div id="divform">
+            
+            
+            <form method="post" name="ENDEREÇO">
+                <fieldset>
+                    <legend>Cep</legend>
+                <input type="text" required   class="txt" id="NumeroCep" 
+                name="Endercep" value="">
+            
+                <legend>Rua</legend>
+            <input type="text" required   class="txt" id="logradouro" 
+            name="EnderBair" value="">
+
+            <legend>Bairro</legend>
+            <input type="text" required   class="txt" id="bairro" 
+            name="EnderRua" value="">
+
+            <legend>Cidade</legend>
+            <input type="text" required   class="txt" id="localidade" 
+            name="EnderCid" value="">
+
+            <legend>Estado</legend>
+            <input type="text" required   class="txt" id="uf" 
+            name="EnderEst" value="">
+         
+        </fieldset>
+        <input id="buscarCep" type="button" name="enviarDados" value="Buscar">
+    
+
+
+        </form>
+
+    </div>
+    </main>
+     
+</body>
+</html>
